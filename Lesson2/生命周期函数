@@ -1,0 +1,3 @@
+init() = JavaFX-Launcher
+start() = JavaFX Application Thread
+stop() = JavaFX Application Thread
