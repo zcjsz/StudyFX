@@ -59,8 +59,8 @@ public class Lesson3 extends Application {
         });
 
         // 设置全屏，必须设置 Scene
-        primaryStage.setFullScreen(true);
-        primaryStage.setScene(new Scene(new Group()));
+        // primaryStage.setFullScreen(true);
+        // primaryStage.setScene(new Scene(new Group()));
 
         primaryStage.show();
 
