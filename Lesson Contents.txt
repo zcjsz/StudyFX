@@ -1,0 +1,45 @@
+Lesson2
+  1. 生命周期函数, init, start, stop
+  
+  
+Lesson3
+  1. 设置标题
+  2. 设置icon
+  3. 设置最小化
+  4. 设置最大化
+  5. 窗口关闭
+  6. 设置不可改变大小
+  7. 设置宽高
+  8. 设置最大宽高
+  9. 设置最小宽高
+  10. 获取宽和高在show方法后面执行
+  11. 监听当前宽度和高度
+  12. 设置全屏，必须设置 Scene
+
+
+Lesson4
+  1. 设置透明度
+  2. 设置窗口总是在最上层,默认为false
+  3. 设置窗口左上角起点,在show()执行后调用才起作用
+  4. 监听窗口坐标
+  5. 窗口样式设置
+  6. Platform.exit() 关闭窗口，退出程序
+  7. 模态化窗口(必须关闭后才能进行后继操作)，模态窗口设置在 ubuntu 下面不起作用
+  
+
+Lesson5
+  1. Platform.runLater 启动另一个 javafx applicaiton 线程，可以用来更新组件
+  2. Platform.setImplicitExit 设置为 false 的时候，即使所有窗口都关闭了，程序也不会退出，需要调用 Platform.exit 退出程序
+  3. Platform.isSupported 检查系统是否支持一些特性
+
+
+Lesson6
+  1. 获取整个屏幕的边界
+  2. 获取可视屏幕的边界
+  3. 获取屏幕 DPI
+  
+  
+Lesson7
+  1. Stage 加载 Scene， Scene 加载布局， 布局加载节点
+  2. 可以设置指针的样式，也可以自定义指针样式
+  3. 在程序中自动打开一个网页
