@@ -1,0 +1,3 @@
+1. Platform.runLater 启动另一个 javafx applicaiton 线程，可以用来更新组件
+2. Platform.setImplicitExit 设置为 false 的时候，即使所有窗口都关闭了，程序也不会退出，需要调用 Platform.exit 退出程序
+3. Platform.isSupported 检查系统是否支持一些特性
