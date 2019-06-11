@@ -1,0 +1,2 @@
+1. 设置快捷键 - Mnemonic
+2. 设置快捷键 - getAccelerators
