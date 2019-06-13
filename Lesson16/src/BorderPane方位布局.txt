@@ -1,0 +1,5 @@
+1. BorderPane 设置方位布局，上、下、左、右、中，每个方位都能添加一个节点
+2. BorderPane 如果上下左右的节点没有设置宽和高，那整个空间都被中间的节点填充
+3. BorderPane 设置本组件内边距
+4. BorderPane 设置子组件外边距
+5. BorderPane 获取某个方位的子节点
