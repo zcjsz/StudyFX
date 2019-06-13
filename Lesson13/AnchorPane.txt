@@ -1,0 +1,11 @@
+1. Group 是捆绑容器，不是组件也不是布局，不能添加背景和事件等
+2. AnchorPane 定位布局(绝对布局)，可以作为根节点。作为组件可以设置背景事件等。
+3. AnchorPane 通过锚点来管理子组件在其中间的位置，使子组件自己设置的 X,Y 无效
+4. AnchorPane 中的子组件可以通过锚点位置来自适应父控件大小
+5. AnchorPane 设置内边距，只对设置锚点的子组件有效
+6. 通过 AnchorPane 来管理 Group，设置 Group 锚点位置。Button X,Y 位置是相对于 Group 的。
+7. 在 AnchorPane 里面嵌套另一个 AnchorPane: AnchorPane1 管理 AnchorPane2, AnchorPane2 管理 Button1
+8. AnchorPane 监听宽高
+9. 在子 AnchorPane 中添加 Button，并且固定到右下角
+10. Button1 脱离 AnchorPane2 管理，Button1 不在原来位置
+11. 在 primaryStage.show() 后面再获取组件的宽高，或是在前面用监听的方法获取框高
